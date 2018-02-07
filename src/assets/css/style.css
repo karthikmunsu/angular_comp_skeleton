@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 65px;
+    background: url('../img/background.png');
+}
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+header .navbar {
+    border-radius: 0;
+}
+header .navbar-brand {
+    margin-right: 15px;
+    padding: 5px;
+    height: 55px;
+}
+.navbar-nav>li>a {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+header .navbar-default .navbar-nav>li>a:hover,
+header .navbar-default .navbar-nav>li>a:focus,
+header .navbar-default .navbar-nav>.active>a,
+header .navbar-default .navbar-nav>.active>a:hover,
+header .navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background: #000;
+    transition: all 0.5s ease 0s;
+}
+.select_wrap {
+    text-align: center;
+}
+.select_wrap .select {
+    display: inline-block;
+    margin: 0 0 2% 2%;
+    width: 18.4%;
+    float: left;
+}
+.select_wrap .select:nth-child(5n+1){
+    margin-left: 0;
+}
+.search_wrap{
+    position: relative;
+}
+.search_wrap span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+.search_wrap span i{
+    color: #666;
+}
+.select_wrap input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    padding-right: 30px;
+    color: #333;
+}
+.select_wrap input:focus{
+    outline: 0;
+}
+
+.select_wrap select {
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 9px -1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 9px -1px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px 9px -1px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    background: #000;
+    width: 100%;
+}
+.select_wrap select:focus {
+    outline: 0;
+    box-shadow: 3px 3px 9px -1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 9px -1px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px 9px -1px rgba(0, 0, 0, 0.3);
+}
